@@ -6,7 +6,7 @@ function Navbar() {
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                 <div className="container">
-                    <a className="navbar-brand" href="https://bootswatch.com">Ordem de Serviço</a>
+                    <a className="navbar-brand" href="http://187.6.10.202:8085/glpi/">GLPI</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation" wfd-invisible="true">
                         <span className="navbar-toggler-icon"></span>
                     </button>

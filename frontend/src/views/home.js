@@ -15,18 +15,18 @@ class Home extends React.Component {
     render() {
         return (
             <div className="jumbotron">
-                <h1 className="display-3">Bem vindo {this.state.nomeServidor}</h1>
-                <p className="lead">Sistema de Ordens de Serviço.</p>                
+                <h1 className="lead display-6">Bem Vindo ao Sistema de Ordens de Serviço</h1>                
                 <hr className="my-4" />
-                <p>Acesse ao sistema nos botões abaixo</p>
+                <p /*className="display-5"*/>{this.state.nomeServidor}</p>
+                <p>Acesse ao sistema nos botões abaixo:</p>
                 <p className="lead">
-                    <a className="btn btn-secondary btn-lg"
+                    <a className="btn btn-danger btn-lg"
                         href="#/cadastro-servidor"
                         role="button" style={{marginRight: '4px'}}>
                         <i className="fa fa-users"></i>
                             Cadastrar Servidor
                     </a>
-                    <a className="btn btn-danger btn-lg"
+                    <a className="btn btn-secondary btn-lg"
                         href="#/consultar-servicos"
                         role="button">
                         <i className="fa fa-users"></i>

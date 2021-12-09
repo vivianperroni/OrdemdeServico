@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-/*const httpClient = axios.create({
+const httpClient = axios.create({
     baseURL: 'https://tadsordemservico.herokuapp.com'
-})*/
+})
 
 class Apiservice {
 
